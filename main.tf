@@ -17,8 +17,8 @@ resource "aws_instance" "webec2" {
   instance_type          = "t2.micro"
   }
   
-  variable "access_key" { }
-  variable "secret_Key" { }
-  variable "region_name" {
-    default = "us-east-1"
-  }
+variable "access_key" { }
+variable "secret_Key" { }
+variable "region_name" {
+  default = "us-east-1"
+}
