@@ -13,7 +13,6 @@ provider "aws" {
 }
  
 resource "aws_instance" "webec2" {
-  associate_public_ip_address = true
   ami               = "ami-0f403e3180720dd7e"
   instance_type          = "t2.micro"
   }
